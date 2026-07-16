@@ -10,7 +10,7 @@ Our focus is on building reliable, data-driven infrastructure capable of adaptin
 
 ## Platform Architecture
 
-### 📡 Market Data
+###  Market Data
 
 Robust multi-asset market data infrastructure supporting:
 
@@ -23,7 +23,7 @@ Including real-time and historical market data, order books, funding rates, open
 
 ---
 
-### 🛡 Data Validation
+###  Data Validation
 
 Every dataset is validated before entering the trading pipeline.
 
@@ -39,7 +39,7 @@ Trading is automatically suspended whenever data integrity cannot be guaranteed.
 
 ---
 
-### 🧠 Quantitative Research
+###  Quantitative Research
 
 Feature engineering spans multiple domains:
 
@@ -54,7 +54,7 @@ Feature engineering spans multiple domains:
 
 ---
 
-### 📊 Market Regime Detection
+###  Market Regime Detection
 
 QuantEdge continuously classifies market conditions and dynamically enables strategies that best fit the current environment.
 
@@ -68,7 +68,7 @@ Examples include:
 
 ---
 
-### ⚙ Strategy Engine
+###  Strategy Engine
 
 Supported strategy families include:
 
@@ -86,7 +86,7 @@ Strategies are modular and selected automatically based on market conditions.
 
 ---
 
-### 🎯 Signal Engine
+###  Signal Engine
 
 Signals are generated from multiple independent models, including:
 
@@ -104,7 +104,7 @@ Signals are aggregated into a configurable confidence model before execution.
 
 ---
 
-### ⚖ Risk Management
+###  Risk Management
 
 Risk controls are built into every layer of the platform.
 
@@ -120,7 +120,7 @@ Features include:
 
 ---
 
-### 🚀 Execution
+###  Execution
 
 Institutional-inspired execution engine supporting:
 
@@ -134,7 +134,7 @@ Pre-trade validation includes liquidity analysis, spread monitoring, slippage es
 
 ---
 
-### 📈 Portfolio Management
+###  Portfolio Management
 
 Portfolio-level controls include:
 
@@ -146,7 +146,7 @@ Portfolio-level controls include:
 
 ---
 
-### 📉 Position Management
+###  Position Management
 
 Positions are actively managed through:
 
@@ -159,7 +159,7 @@ Positions are actively managed through:
 
 ---
 
-### 📊 Strategy Monitoring
+###  Strategy Monitoring
 
 Every strategy is continuously evaluated using performance metrics such as:
 
@@ -175,7 +175,7 @@ Risk is automatically reduced when performance deteriorates.
 
 ---
 
-### 🚨 Circuit Breakers
+###  Circuit Breakers
 
 Multiple independent safety systems can suspend trading when abnormal conditions are detected, including:
 
