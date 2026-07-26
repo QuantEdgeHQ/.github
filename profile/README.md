@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/quantedge-banner.svg" alt="QuantEdge Banner" width="100%">
+<img src="../assets/quantedge-banner.svg" alt="QuantEdge Banner" width="100%">
 
 # QuantEdgeHQ
 
