@@ -1,204 +1,60 @@
+<div align="center">
+
+<img src="assets/quantedge-banner.svg" alt="QuantEdge Banner" width="100%">
+
 # QuantEdgeHQ
 
-> **Engineering institutional-grade quantitative trading systems.**
+**Engineering institutional-grade quantitative trading systems**
 
-QuantEdgeHQ is the organization behind **QuantEdge**, a proprietary algorithmic trading platform built for systematic trading, quantitative research, and automated execution.
+![Status](https://img.shields.io/badge/status-active--development-brightgreen)
+![Private](https://img.shields.io/badge/repos-private-lightgrey)
+![Platform](https://img.shields.io/badge/platform-QuantEdge-blue)
+![License](https://img.shields.io/badge/license-proprietary-red)
 
-Our focus is on building reliable, data-driven infrastructure capable of adapting to changing market conditions while maintaining strict standards for risk management, execution quality, and system resilience.
+<br>
 
----
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 
-## Platform Architecture
-
-###  Market Data
-
-Robust multi-asset market data infrastructure supporting:
-
-- Stocks
-- Forex
-- Cryptocurrencies
-- Futures
-
-Including real-time and historical market data, order books, funding rates, open interest, economic events, news sentiment, and cross-asset analytics.
+</div>
 
 ---
 
-###  Data Validation
+### About
 
-Every dataset is validated before entering the trading pipeline.
+QuantEdgeHQ builds **QuantEdge** — a proprietary algorithmic trading platform for systematic trading, quantitative research, and automated execution, engineered to institutional standards for risk management, execution quality, and system resilience.
 
-Validation includes:
+<br>
 
-- Missing or duplicate data detection
-- Timestamp verification
-- Bad tick filtering
-- Price anomaly detection
-- Exchange/API health monitoring
+## Core Systems
 
-Trading is automatically suspended whenever data integrity cannot be guaranteed.
+| Module | Description |
+|---|---|
+| **Market Data** | Real-time & historical data across stocks, forex, crypto, futures — order books, funding rates, open interest, news sentiment |
+| **Data Validation** | Missing/duplicate detection, timestamp checks, anomaly filtering — auto-halts trading on integrity failures |
+| **Quant Research** | Feature engineering across trend, momentum, volatility, volume, order flow, derivatives |
+| **Regime Detection** | Classifies market state (bull/bear, volatility, risk-on/off) and switches strategies to match |
+| **Strategy Engine** | Trend following, mean reversion, breakout, stat-arb, market making — auto-selected by regime |
+| **Signal Engine** | Independent models (trend, momentum, ML, etc.) aggregated into a confidence score |
+| **Risk Management** | Fractional Kelly sizing, volatility-adjusted positions, drawdown & exposure limits |
+| **Execution** | Market/limit/TWAP/VWAP/iceberg orders with pre-trade cost & slippage analysis |
+| **Portfolio Management** | Correlation tracking, sector exposure, VaR, capital allocation optimization |
+| **Position Management** | ATR stops, trailing stops, break-even protection, partial exits |
+| **Strategy Monitoring** | Sharpe/Sortino, drawdown, expectancy — risk scales down as performance degrades |
+| **Circuit Breakers** | Auto-suspends trading on outages, latency spikes, abnormal volatility |
 
----
+<br>
 
-###  Quantitative Research
-
-Feature engineering spans multiple domains:
-
-- Trend Analysis
-- Momentum
-- Volatility
-- Volume Analytics
-- Market Structure
-- Order Flow
-- Derivatives
-- Cross-Asset Relationships
+<div align="center">
 
 ---
 
-###  Market Regime Detection
+**Status:** Active proprietary development · All repositories are private
 
-QuantEdge continuously classifies market conditions and dynamically enables strategies that best fit the current environment.
+<sub>© QuantEdgeHQ — Engineering reliable quantitative trading infrastructure</sub>
 
-Examples include:
-
-- Bull & Bear Markets
-- Sideways Markets
-- High & Low Volatility
-- Risk-On / Risk-Off
-- News-Driven Markets
-
----
-
-###  Strategy Engine
-
-Supported strategy families include:
-
-- Trend Following
-- Mean Reversion
-- Breakout
-- Momentum
-- Pullback
-- Volatility Expansion
-- Volatility Compression
-- Statistical Arbitrage
-- Market Making
-
-Strategies are modular and selected automatically based on market conditions.
-
----
-
-###  Signal Engine
-
-Signals are generated from multiple independent models, including:
-
-- Trend
-- Momentum
-- Volume
-- Volatility
-- Liquidity
-- Order Flow
-- Market Structure
-- Cross-Asset Analysis
-- Machine Learning
-
-Signals are aggregated into a configurable confidence model before execution.
-
----
-
-###  Risk Management
-
-Risk controls are built into every layer of the platform.
-
-Features include:
-
-- Dynamic position sizing
-- Kelly Criterion (fractional)
-- Volatility-adjusted sizing
-- Drawdown protection
-- Portfolio exposure limits
-- Automatic risk scaling
-- Leverage controls
-
----
-
-###  Execution
-
-Institutional-inspired execution engine supporting:
-
-- Market Orders
-- Limit Orders
-- TWAP
-- VWAP
-- Iceberg Orders
-
-Pre-trade validation includes liquidity analysis, spread monitoring, slippage estimation, and transaction cost modeling.
-
----
-
-###  Portfolio Management
-
-Portfolio-level controls include:
-
-- Correlation monitoring
-- Sector exposure management
-- Value-at-Risk (VaR)
-- Diversification analysis
-- Capital allocation optimization
-
----
-
-###  Position Management
-
-Positions are actively managed through:
-
-- ATR-based stops
-- Trailing stops
-- Break-even protection
-- Partial profit taking
-- Time-based exits
-- Emergency liquidation
-
----
-
-###  Strategy Monitoring
-
-Every strategy is continuously evaluated using performance metrics such as:
-
-- Win Rate
-- Profit Factor
-- Sharpe Ratio
-- Sortino Ratio
-- Maximum Drawdown
-- Expectancy
-- Trade Frequency
-
-Risk is automatically reduced when performance deteriorates.
-
----
-
-###  Circuit Breakers
-
-Multiple independent safety systems can suspend trading when abnormal conditions are detected, including:
-
-- Drawdown limits
-- Exchange outages
-- API failures
-- High latency
-- Excessive slippage
-- Abnormal volatility
-- Data integrity failures
-- Strategy degradation
-
----
-
-## Status
-
-**QuantEdge** is currently under active proprietary development.
-
-The repositories within this organization are private and contain internal components of the QuantEdge platform.
-
----
-
-<p align="center">
-<b>QuantEdgeHQ</b><br>
-Engineering reliable quantitative trading infrastructure.
-</p>
+</div>
